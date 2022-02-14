@@ -60,12 +60,12 @@ layers:
   - !!inc/file layers/oc-water-name-other.yml
   - !!inc/file layers/nt-water-name-ocean.yml
   - !!inc/file layers/nt-water-name-river.yml
-  # - !!inc/file layers/oc-label-country.yml
-  # - !!inc/file layers/oc-label-pref-ja.yml
-  # - !!inc/file layers/oc-label-pref.yml
-  # - !!inc/file layers/oc-label-town-ja.yml
-  # - !!inc/file layers/oc-label-pref-capital-ja.yml
-  # - !!inc/file layers/oc-label-town.yml
+  - !!inc/file layers/oc-label-country.yml
+  - !!inc/file layers/oc-label-pref-ja.yml
+  - !!inc/file layers/oc-label-pref.yml
+  - !!inc/file layers/oc-label-town-ja.yml
+  - !!inc/file layers/oc-label-pref-capital-ja.yml
+  - !!inc/file layers/oc-label-town.yml
   - !!inc/file layers/oc-airport.yml
   - !!inc/file layers/landuse-commercial.yml
   - !!inc/file layers/landuse-industrial.yml
@@ -134,29 +134,26 @@ layers:
   - !!inc/file layers/water-name-other.yml
   - !!inc/file layers/building.yml
   - !!inc/file layers/building-3d.yml
-  # - !!inc/file layers/poi-food-shopping.yml
-  # - !!inc/file layers/poi-service.yml
-  # - !!inc/file layers/poi-health.yml
-  # - !!inc/file layers/poi-entertainment.yml
-  # - !!inc/file layers/poi-outdoor-civil.yml
-  # - !!inc/file layers/poi-transport.yml
-
-  # - !!inc/file layers/poi-z8.yml
-  # - !!inc/file layers/poi-z9.yml
-  # - !!inc/file layers/poi-z10.yml
-  # - !!inc/file layers/poi-z11.yml
-  # - !!inc/file layers/poi-z12.yml
-  # - !!inc/file layers/poi-z13.yml
-  # - !!inc/file layers/poi-z14.yml
-  # - !!inc/file layers/poi-z15.yml
-  # - !!inc/file layers/poi-z16.yml
-  # - !!inc/file layers/poi-z17.yml
-  # - !!inc/file layers/poi-z18.yml
-  # - !!inc/file layers/poi-z19.yml
-  # - !!inc/file layers/poi-z20.yml
-
+  - !!inc/file layers/poi-food-shopping.yml
+  - !!inc/file layers/poi-service.yml
+  - !!inc/file layers/poi-health.yml
+  - !!inc/file layers/poi-entertainment.yml
+  - !!inc/file layers/poi-outdoor-civil.yml
+  - !!inc/file layers/poi-transport.yml
+  - !!inc/file layers/poi-z8.yml
+  - !!inc/file layers/poi-z9.yml
+  - !!inc/file layers/poi-z10.yml
+  - !!inc/file layers/poi-z11.yml
+  - !!inc/file layers/poi-z12.yml
+  - !!inc/file layers/poi-z13.yml
+  - !!inc/file layers/poi-z14.yml
+  - !!inc/file layers/poi-z15.yml
+  - !!inc/file layers/poi-z16.yml
+  - !!inc/file layers/poi-z17.yml
+  - !!inc/file layers/poi-z18.yml
+  - !!inc/file layers/poi-z19.yml
+  - !!inc/file layers/poi-z20.yml
   - !!inc/file layers/poi-railway.yml
-
   - !!inc/file layers/railway-name.yml
   - !!inc/file layers/road_oneway.yml
   - !!inc/file layers/road_oneway_opposite.yml
@@ -179,10 +176,3 @@ layers:
   - !!inc/file layers/place-city-rank3.yml
   - !!inc/file layers/place-city-rank2.yml
   - !!inc/file layers/place-city-capital.yml
-  
-  - !!inc/file layers/oc-label-country.yml
-  - !!inc/file layers/oc-label-pref-ja.yml
-  - !!inc/file layers/oc-label-pref.yml
-  - !!inc/file layers/oc-label-town-ja.yml
-  - !!inc/file layers/oc-label-pref-capital-ja.yml
-  - !!inc/file layers/oc-label-town.yml
