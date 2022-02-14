@@ -17,6 +17,9 @@ sources:
   geolonia-water:
     type: vector
     url: https://tileserver.geolonia.com/water/tiles.json?key=YOUR-API-KEY
+  geolonia-station:
+    type: vector
+    url: https://tileserver.geolonia.com/shikoku-railway-stations/tiles.json?key=YOUR-API-KEY
   geolonia:
     type: vector
     minzoom: 8
@@ -131,28 +134,29 @@ layers:
   - !!inc/file layers/water-name-other.yml
   - !!inc/file layers/building.yml
   - !!inc/file layers/building-3d.yml
-  - !!inc/file layers/poi-food-shopping.yml
-  - !!inc/file layers/poi-service.yml
-  - !!inc/file layers/poi-health.yml
-  - !!inc/file layers/poi-entertainment.yml
-  - !!inc/file layers/poi-outdoor-civil.yml
-  - !!inc/file layers/poi-transport.yml
+  # - !!inc/file layers/poi-food-shopping.yml
+  # - !!inc/file layers/poi-service.yml
+  # - !!inc/file layers/poi-health.yml
+  # - !!inc/file layers/poi-entertainment.yml
+  # - !!inc/file layers/poi-outdoor-civil.yml
+  # - !!inc/file layers/poi-transport.yml
 
-  - !!inc/file layers/poi-z8.yml
-  - !!inc/file layers/poi-z9.yml
-  - !!inc/file layers/poi-z10.yml
-  - !!inc/file layers/poi-z11.yml
-  - !!inc/file layers/poi-z12.yml
-  - !!inc/file layers/poi-z13.yml
-  - !!inc/file layers/poi-z14.yml
-  - !!inc/file layers/poi-z15.yml
-  - !!inc/file layers/poi-z16.yml
-  - !!inc/file layers/poi-z17.yml
-  - !!inc/file layers/poi-z18.yml
-  - !!inc/file layers/poi-z19.yml
-  - !!inc/file layers/poi-z20.yml
+  # - !!inc/file layers/poi-z8.yml
+  # - !!inc/file layers/poi-z9.yml
+  # - !!inc/file layers/poi-z10.yml
+  # - !!inc/file layers/poi-z11.yml
+  # - !!inc/file layers/poi-z12.yml
+  # - !!inc/file layers/poi-z13.yml
+  # - !!inc/file layers/poi-z14.yml
+  # - !!inc/file layers/poi-z15.yml
+  # - !!inc/file layers/poi-z16.yml
+  # - !!inc/file layers/poi-z17.yml
+  # - !!inc/file layers/poi-z18.yml
+  # - !!inc/file layers/poi-z19.yml
+  # - !!inc/file layers/poi-z20.yml
 
   - !!inc/file layers/poi-railway.yml
+
   - !!inc/file layers/railway-name.yml
   - !!inc/file layers/road_oneway.yml
   - !!inc/file layers/road_oneway_opposite.yml
